@@ -1,0 +1,11 @@
+POST http://localhost:3003/api/blogs
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InJvb3QiLCJpZCI6IjY1ZjgwZjFkYTZhZGRjMGZlZDY1ODM2NSIsImlhdCI6MTcxMTM2NDI3MywiZXhwIjoxNzExMzY3ODczfQ.hI8t3iYEs-XKbC2yURBTIP3_WDvInr49Hj_2ytLPpQ8
+
+{
+  "title": "test2",
+  "author": "Bloog Masa",
+  "url": "http://lalalaland.com",
+  "likes": 6,
+  "user": "65f80f1da6addc0fed658365"
+}
